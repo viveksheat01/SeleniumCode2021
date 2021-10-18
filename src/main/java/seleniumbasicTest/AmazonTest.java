@@ -8,7 +8,7 @@ public class AmazonTest {
 		br.launchUrl("https:www.amazon.com");
 		String title = br.getPagetitle();
 		System.out.println(title);
-		System.out.println(br.getPageUrl());
+		System.out.println("get page url display :" + br.getPageUrl());
 		br.quiteBrowser();
 	}
 
