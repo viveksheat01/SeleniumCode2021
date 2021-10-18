@@ -17,8 +17,8 @@ public class MilkbasketTestDemo {
 
 		driver.get("http://admin-qa.milkbasket.com.s3-website.ap-south-1.amazonaws.com/index.html#/login");
 
-		driver.findElement(By.name("email")).sendKeys("testorder18@gmail.com");
-		driver.findElement(By.name("password")).sendKeys("12345");
+		driver.findElement(By.name("email")).sendKeys("demotest@gmail.com");
+		driver.findElement(By.name("password")).sendKeys("test@123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(2000);
 		// driver.findElement(By.xpath("//input[contains(@id,'mat-input-2')]")).click();

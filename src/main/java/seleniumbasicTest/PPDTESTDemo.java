@@ -13,8 +13,8 @@ public class PPDTESTDemo {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 
-		driver.get("https://ppd-uat.milkbasket.com/index.html#/login");
-		driver.findElement(By.name("mobile")).sendKeys("7701884383");
+		driver.get("https://testdedmeo.com");
+		driver.findElement(By.name("mobile")).sendKeys("123456");
 
 	}
 
